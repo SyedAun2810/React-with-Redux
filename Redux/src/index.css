@@ -1,0 +1,47 @@
+*{
+  color: white !important;
+}
+body{
+  background-color: rgb(67, 62, 62);
+  color: white;
+}
+.main-container{
+  height: 60vh; 
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container > div > h1 {
+  font-size: 60px;  
+  margin-left: 90px;
+  margin-bottom: 50px;
+}
+.container > div > input {
+  padding: 10px;
+  width: 300px;
+  font-size: 20px;
+  border: 1px white solid;
+  background-color: transparent;
+}
+.container > div > button{
+  padding: 10px;
+  font-size: 20px;
+  width: 100px;
+  border: 1px white solid;
+  background-color: transparent;
+}
+.list-item{
+  display: flex;
+  justify-content: space-between;
+
+}
+.list-item> button{
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid white;
+  background-color: transparent;
+}
